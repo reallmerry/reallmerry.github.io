@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Копипаста - rStudio</title>
-    <!-- ЗАМЕНИТЕ НА ВАШУ ИКОНКУ -->
+    <title>rStudio - clipboard</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
     <style>
-        /* === ИЗВЛЕЧЕННЫЕ СТИЛИ ИЗ CSS-ФАЙЛОВ zyplos.dev === */
-        
+       
         :root {
             --radius: 1.1rem;
             --radiusSm: 0.6rem;
@@ -31,7 +29,6 @@
         .glass { background: linear-gradient(180deg,rgba(45,31,31,0),rgba(27,18,18,.5)); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border: var(--borderGlass); border-width: 1px; box-shadow: 0 7px 20px 0 rgba(0,0,0,.55); }
         h1 { font-size: 3rem; margin-bottom: 2rem; font-weight: 700; }
 
-        /* === НАВИГАЦИОННАЯ ПАНЕЛЬ (ТОЧНАЯ КОПИЯ zyplos.dev) === */
         .styles_nav__HrAA8, .styles_nav__HrAA8 * {
             transition: all .2s ease-in-out,color .05s linear,border .01s ease-out,padding .1s ease-out;
         }
@@ -48,8 +45,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 2rem;
-            border-radius: var(--radius); /* Возвращаем закругления */
-            border: var(--borderGlass); /* Применяем рамку ко всей панели */
+            border-radius: var(--radius);
+            border: var(--borderGlass); 
         }
         
         .styles_emblemLink__lGj3U { padding: 0; border-radius: 0; }
@@ -69,7 +66,6 @@
             .styles_nav__HrAA8 { padding: 2rem; }
         }
         
-        /* === КОНТЕНТ СТРАНИЦЫ === */
         .styles_main__Acw6Q { width: 90%; max-width: var(--maxWidth); padding: 3rem; margin: calc(100px + 4rem) auto 0; }
         .Clipboard_grid__IwTqi { display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); grid-auto-rows: 1fr; gap: 1rem; }
         .Clipboard_colorCardWrapper__G6Zkc { border: none; background: none; text-align: left; padding: 0; cursor: pointer; display: block; width: 100%; }
@@ -79,7 +75,6 @@
         .Clipboard_name___KOz4 { margin-bottom: 1rem; flex-grow: 1; font-weight: 700; font-size: 1.1rem; }
         .Clipboard_hex__B2uZ3 { font-size: .85rem; font-family: monospace; }
         
-        /* Уведомление о копировании */
         #copy-toast { position: fixed; bottom: -100px; left: 50%; transform: translateX(-50%); background-color: #242424; color: #fff; padding: .8rem 1.5rem; border-radius: var(--radiusSm); font-weight: 500; z-index: 2000; transition: bottom .4s cubic-bezier(0.22, 1, 0.36, 1); pointer-events: none; }
         #copy-toast.show { bottom: 2rem; }
     </style>
@@ -88,8 +83,7 @@
     
     <nav class="styles_nav__HrAA8 glass">
         <a class="styles_emblemLink__lGj3U" href="/">
-            <!-- ЗАМЕНИТЕ ПУТЬ К ЛОГОТИПУ НА ВАШ -->
-            <img alt="images/image_14.png"width="64" height="37" src="images/logo.png">
+            <img alt="images/image_14.png"width="64" height="37" src="images/image_14.png">
         </a>
         <div class="styles_linksSection__3gAuU">
             <div class="styles_links__8cu5E">
